@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    display: flex;
+    width: 1440px;
+    height: 880px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    align-items: center;
+    padding-top: 22px;
+    border-right: 1px solid #f3f3f4;
+}
+.left-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 43px;
+}
+.left-logo{
+    width: 50px;
+}
+
+.left-avatar{
+    padding-top: 300px;
+}
+.left-setting{
+    padding-top: 20px;
+}
+.middle{
+
+}
+.right{
+
+}
