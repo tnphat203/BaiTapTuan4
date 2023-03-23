@@ -26,6 +26,10 @@ main{
     width: 50px;
 }
 
+.left-cam{
+    width: 60px;
+    border-radius: 5px;
+}
 .left-avatar{
     padding-top: 300px;
 }
@@ -259,4 +263,64 @@ main{
 .right-one-user-control-option{
     height: 15px;
     width: 15px;
+}
+.right-bottom{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 33px;
+    font-size: 25px;
+}
+.right-bottom-list-chat{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+.right-bottom-one-chat{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+.right-bottom-one-chat-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.right-bottom-one-chat-box{
+    display: flex;
+    height: 70px;
+    width: 330px;
+    font-size: 15px;
+    background-color: #f8f9fa;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 37px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+.right-bottom-chat{
+    display: flex;
+    width: 420px;
+    height: 55px;
+    align-items: center;
+    position: relative;
+}
+.right-bottom-chat-bar{
+    display: flex;
+    height: 30px;
+    width: 270px;
+    background-color: #f3f4f6;
+    border: none;
+}
+.right-bottom-chat-bar::placeholder{
+    color: #a5abb4;
+}
+.right-bottom-smile-icon{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 21px;
+    left: 250px;
 }
