@@ -306,10 +306,12 @@ main{
     height: 55px;
     align-items: center;
     position: relative;
+    gap: 30px;
+    padding-left: 43px;
 }
 .right-bottom-chat-bar{
     display: flex;
-    height: 30px;
+    height: 35px;
     width: 270px;
     background-color: #f3f4f6;
     border: none;
@@ -319,8 +321,7 @@ main{
 }
 .right-bottom-smile-icon{
     position: absolute;
-    width: 15px;
-    height: 15px;
-    top: 21px;
-    left: 250px;
+    width: 20px;
+    top: 18px;
+    left: 285px;
 }
