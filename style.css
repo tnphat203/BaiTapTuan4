@@ -13,7 +13,7 @@ main{
     width: 75px;
     align-items: center;
     padding-top: 22px;
-    border-right: 1px solid #f3f3f4;
+    border-right: 2px solid #f3f3f4;
 }
 .left-control{
     display: flex;
@@ -36,6 +36,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-right: 2px solid #f3f3f4;
 }
 .middle-header{
     display: flex;
@@ -92,7 +93,7 @@ main{
 .middle-header-right{
     display: flex;
     width: 90px;
-    height: 40px;
+    height: 35px;
     border: 2px solid #f57d81;
     color: #f5666a;
     border-radius: 50px;
@@ -100,6 +101,8 @@ main{
     align-items: center;
     margin-top: 30px;
     margin-left: 310px;
+    gap: 10px;
+    font-size: 14px;
 }
 .middle-img-big{
     position: relative;
@@ -122,6 +125,7 @@ main{
     top: 190px;
     left: 150px;
     font-size: 14px;
+    gap: 10px;
 }
 .middle-img-big-mic{
     position: absolute;
@@ -162,6 +166,7 @@ main{
     font-size: 11px;
     top: 10px;
     left: 7px;
+    gap: 7px;
 }
 .middle-control-call{
     display: flex;
@@ -185,5 +190,73 @@ main{
     width: 125px;
 }
 .right{
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top{
+    display: flex;
+    font-size: 23px;
+    padding-top: 30px;
+    height: 60px;
+    padding-left: 33px;
+}
+.right-top-content{
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+.right-top-number{
+    display: flex;
+    border-radius: 100px;
+    color: #e34d73;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px ;
+    background-color: rgb(245, 242, 242);
+}
+.right-top-btnadd{
+    display: flex;
+    width: 70px;
+    height: 30px;
+    gap: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #e56182;
+    justify-content: center;
+    align-items: center;
+    color: #e56182;
+    margin-left: 150px;
+}
+.right-list-user{
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 245px;
+    padding-top: 10px;
+    gap: 7px;
+    border-bottom: 2px solid #f3f3f4;
+    padding-left: 33px;
+}
+.right-one-user{
+    display: flex;
+    height: 50px;
+}
+.right-one-user-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+}
+.right-one-user-control{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-left: 125px;
+}
+.right-one-user-control-option{
+    height: 15px;
+    width: 15px;
 }
